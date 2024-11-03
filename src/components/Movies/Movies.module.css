@@ -1,0 +1,66 @@
+/* src/components/MovieDetails/MovieDetails.module.css */
+.movieDetails {
+  padding: 20px;
+}
+
+.movieContent {
+  display: flex;
+}
+
+.movieImage {
+  width: 200px; /* Adjust as needed */
+  height: auto;
+  margin-right: 20px;
+}
+
+.movieInfo {
+  flex: 1; /* Takes remaining space */
+}
+
+.additionalInfo {
+  margin-top: 20px;
+}
+
+.button {
+  display: block;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f0f0f0;
+  text-align: center;
+  border: none; /* Remove border */
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.infoBox {
+  padding: 10px;
+  background-color: #f9f9f9; /* Light background for info */
+  margin-top: 5px;
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.actor {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.actorImage {
+  width: 50px; /* Adjust size */
+  height: 50px;
+  border-radius: 50%; /* Circle shape */
+  margin-right: 10px;
+}
+
+.review {
+  margin-top: 5px;
+}
+
+.active {
+  background-color: red; /* Active button color */
+  color: white;
+}

@@ -1,0 +1,22 @@
+/* src/components/Home/Home.module.css */
+.home {
+    padding: 20px;
+  }
+  
+  .movieList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .movieItem {
+    margin-bottom: 10px;
+  }
+  
+  .movieLink {
+    text-decoration: none;
+    color: black; /* Default color */
+  }
+  
+  .movieLink:hover {
+    text-decoration: underline;
+  }
